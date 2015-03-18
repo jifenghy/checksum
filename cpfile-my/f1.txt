@@ -1,0 +1,55 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    char f1[] = "f1.txt";
+    char f2[] = "f2.txt";
+    printf("Hello world!\n");
+    system("copy f1 f2");
+    return 0;
+}
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    char f1[] = "f1.txt";
+    char f2[] = "f2.txt";
+    printf("Hello world!\n");
+    system("copy f1 f2");
+    return 0;
+}
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    char f1[] = "f1.txt";
+    char f2[] = "f2.txt";
+    printf("Hello world!\n");
+    system("copy f1 f2");
+    return 0;
+}
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    char f1[] = "f1.txt";
+    char f2[] = "f2.txt";
+    printf("Hello world!\n");
+    system("copy f1 f2");
+    return 0;
+}
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    char f1[] = "f1.txt";
+    char f2[] = "f2.txt";
+    printf("Hello world!\n");
+    system("copy f1 f2");
+    return 0;
+}
