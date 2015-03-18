@@ -1,0 +1,50 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int changefile(char *fn)
+{
+    FILE *fp_in=NULL;
+    FILE *fp_out=NULL;
+    char *fo = "mcu-check.bin";
+
+
+    printf("---changefile: %s\n",fn);
+
+    if((fp_in=fopen(fn,"rb"))==NULL)
+    {
+        perror(fn);
+        return 1;
+    }
+    printf("fp_in: %d\n",fp_in);
+
+    if((fp_out=fopen(fo,"wb"))==NULL)
+    {
+        perror(fn);
+        fclose(fp_in);
+        return 2;
+    }
+    printf("fp_out: %d\n",fp_out);
+
+
+
+
+
+
+    fclose(fp_in);
+    fclose(fp_out);
+    return 0;
+
+}
+int main()
+{
+    FILE *fp=NULL;
+    char fname[]="mcu.bin";
+
+    changefile(fname);
+
+
+
+
+    return 0;
+}
