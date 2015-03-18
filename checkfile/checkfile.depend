@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1426667985 source:d:\c\test\windows\p1\checkfile\checkfile\main.c
+	<stddef.h>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<errno.h>
+	<fcntl.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<signal.h>
+	<getopt.h>
+
