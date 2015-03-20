@@ -1,3 +1,12 @@
+/*
+ * desc: for A20 mcu.bin checksum
+ *
+ * data: 2015-3-20
+ *
+ *
+ */
+
+
 #include <stddef.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -15,7 +24,7 @@ char *g_fn_check = "mcu-check.bin";
 unsigned short checksum = -1;
 int ret  = -1;
 
-//LPR-------------------------------------------------
+//LPR-------------------------------------------------------
 #define LPR_PAGE_SIZE      0x00000200     /* Page size */
 #define PACKET_SIZE	64
 
